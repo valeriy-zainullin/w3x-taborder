@@ -1,3 +1,5 @@
+This is a fork that orders tabs every 5 seconds. If tabs are already ordered, nothing is changed.
+
 # Tabs in domain order FFS
 
 This is an extremely simple browser extension. You push a button on
