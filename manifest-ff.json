@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "Order Tabs by Domain",
+    "name": "Order Tabs by Domain Periodically",
     "version": "0.2.3",
-    "description": "Tabs ordered by domain, as god intended.",
-    "homepage_url": "https://github.com/doriantaylor/w3x-taborder",
+    "description": "Tabs ordered by domain, as god intended. But periodically.",
+    "homepage_url": "https://github.com/valeriy-zainullin/w3x-taborder",
     "applications": {
         "gecko": {
-            "id": "{99d1b038-84d5-4cf3-a785-9dad767ca337}"
+            "id": "{99d1b038-84d5-4ca3-b785-9fef767ca337}"
         }
     },
     "icons": {
