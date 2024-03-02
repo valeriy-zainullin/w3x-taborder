@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "Order Tabs by Domain Periodically",
+    "version": "0.2.3",
+    "description": "Tabs ordered by domain, as god intended. But periodically.",
+    "homepage_url": "https://github.com/valeriy-zainullin/w3x-taborder",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{99d1b038-84d5-4ca3-b785-9fef767ca337}"
+        }
+    },
+    "icons": {
+        "16": "icons/tab-16.png",
+        "32": "icons/tab-32.png",
+        "48": "icons/tab-48.png",
+        "64": "icons/tab-64.png",
+        "96": "icons/tab-96.png"
+    },
+    "permissions": ["tabs", "bookmarks", "storage", "menus", "contextMenus"],
+
+    "background": {
+        "scripts": ["main.js"]
+    },
+
+    "options_ui": {
+        "page": "prefs.xhtml"
+    },
+
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+            "16": "icons/tab-16.png",
+            "32": "icons/tab-32.png",
+            "48": "icons/tab-48.png",
+            "64": "icons/tab-64.png",
+            "96": "icons/tab-96.png"
+        },
+        "default_title": "Order Tabs by Domain"
+    }
+}
