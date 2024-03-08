@@ -81,10 +81,12 @@ function compareTabs (a, b) {
     // pinned tabs always come before unpinned tabs
     let cmp = ap - bp;
 
-    // Loaded tabs are at the top of the list.
-    let ad = a.discarded ? 1 : 0;
-    let bd = b.discarded ? 1 : 0;
-    cmp = ad - bd;
+    if (cmp === 0) {
+        // Loaded tabs are at the top of the list.
+        let ad = a.discarded ? 1 : 0;
+        let bd = b.discarded ? 1 : 0;
+        cmp = ad - bd;
+    }
 
     if (cmp === 0) {
         cmp = compareURIs(a.url, b.url);
